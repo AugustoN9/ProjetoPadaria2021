@@ -1,0 +1,230 @@
+
+*{
+	margin:0; 
+	padding:0;
+}
+
+html, body{
+	width: 100%;
+}
+
+body{
+	
+	background: url("../img/foto-paes-padaria-mesa.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: rgba(25,25,25,0.7);	
+}
+
+#menutopo{
+	width: 100%;
+	z-index: 99;
+	font-family: "RistrettoPro";
+	font-size: 22px;
+	position: fixed;
+	top: 0;	
+}
+
+menu{
+	float: left;
+	top: 8%;
+	margin: 0;
+	padding: 0;	
+	width: 23%;
+	heigth: 100%;
+	background-color: rgba(25,25,25,0.5);
+	position: fixed;
+	
+}
+
+menu a{	
+}
+
+#logo{
+	float:left;
+	-margin-right: 0;
+	margin-left: 23%;
+	width: 77%;
+	heigth: 300px;
+	padding: 5% 0% 24.4% 10%;
+	background-color: rgba(25,25,25,0.0);	
+	color: #fff;	
+}
+
+.login{
+	margin-top: 25%;
+}
+
+.fundologin{
+	background-color: rgba(210,51,47,0.8);
+}
+
+#conteudo{		
+	float: right;
+	width: 77%;
+	heigth: 300px;
+	padding: 6% 5% 0% 5%;
+	background-color: rgba(25,25,25,0.0);	
+	color: #fff;	
+}
+
+#conteudoCadUser{
+	float: left;
+	width: 90%;
+	heigth: 300px;
+	padding: 20% 15% 0% 5%;
+	background-color: rgba(25,25,25,0.0);	
+	-color: #fff;
+}
+
+#conteudo2{		
+	float: right;
+	width: 77%;
+	heigth: 300px;
+	padding: 4% 5% 0% 3%;
+	background-color: rgba(25,25,25,0.0);	
+	color: #fff;	
+}
+
+.fontp {
+	font-family: "BELLABOO";
+	font-size: 52px;
+	padding: 15px;
+}
+
+.font1 {
+	width: 50%;
+	font-family: "BELLABOO";
+	font-size: 60px;
+	padding: 15px;
+	border-top: 7px dotted white;
+	border-bottom: 5px solid white;
+}
+
+.font2 {
+	font-family: "RistrettoPro";
+	font-size: 52px;	
+	padding: 5px;	
+}
+
+.font3 {
+	font-family: "RistrettoPro";
+	font-size: 38px;	
+	padding: 5px;
+}
+
+.font_info{
+	text-align:right;
+}
+
+
+#listadetalhe{
+	width: 100%;
+	border: 4px solid white;
+	border-bottom-right-radius: 12px;
+	-border-bottom-left-radius: 12px;
+	-border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+}
+
+#lista{
+	border: 4px solid white;
+	border-bottom-right-radius: 12px;
+	-border-bottom-left-radius: 12px;
+	-border-top-right-radius: 12px;
+	border-top-left-radius: 12px;	
+	color: white;
+}
+
+#lista table tr th{
+	-opacity: 0.7;
+	padding: 10px 10px 10px 10px;
+}
+
+.font4 {
+	font-family: "RistrettoPro";
+	font-size: 24px;	
+	padding: 5px;
+}
+
+.font5{
+	font-family: "RistrettoPro";
+	font-size: 20px;	
+	color: white;
+}
+
+@font-face {		     
+	font-family: Fabada-regular;		     
+	src: url('../font/fabada/Fabada-regular.ttf');		
+	}
+
+@font-face {		     
+	font-family: Jaime Blues;		     
+	src: url('../font/jaime_blues/Jaime Blues.ttf');		
+	}
+	
+@font-face {		     
+	font-family: RistrettoPro;		     
+	src: url('../font/RistrettoPro/RistrettoPro-Regular.otf');		
+	}
+	
+@font-face {		     
+	font-family: BELLABOO;		     
+	src: url('../font/BELLABOO/BELLABOO-Regular.otf');		
+	}
+
+.vertical-menu {
+  width: 20%; /* Set a width if you like */
+  position: fixed;
+  background-color: rgba(25,25,25,0.4);
+}
+
+.vertical-menu a {
+  	background-color: ; /* Grey background color */
+ 	color: white; /* Black text color */
+  	display: block; /* Make the links appear below each other */
+  	padding: 12px; /* Add some padding */
+  	text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  	background-color: #ccc; /* Dark grey background on mouse-over */
+  	color: black;
+   	text-decoration: none;
+   	padding-left: 20px;
+}
+
+.vertical-menu a:active {
+	color: black;
+	font-size: 40px;
+}
+
+.campodetalhe1 input[type=text]{
+	width: 60px;
+	padding-left: 10px;
+	
+	}
+
+.campodetalhe2 input[type=number]{
+	width: 70px;
+	padding-left: 10px;
+	}
+	
+.campodetalhe3 input[type=text]{
+	width: 70px;
+	padding-left: 10px;
+	}
+	
+.campodetalhe4 img{
+	padding-right: 10px;
+	}
+	
+thead tr th{
+	text-align: center;
+}
+
+tbody tr th{
+	text-align: center;
+}
